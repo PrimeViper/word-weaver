@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
 
 const App = () => {
   return (
-  <h1>Welcome to Development Word Weaver website</h1>
-  );
+    <>
+      <Header/>
+    </>
+    );
 }
 
 export default App;
